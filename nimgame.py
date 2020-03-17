@@ -1,8 +1,17 @@
+
+# Asked in hackwithinfy2020
+
 import sys
 n = int(sys.argv[1])
-flag="A"
-if n%2==0 or n==1:
-    flag="A"
+
+if n==3:
+    print("B")
 else:
-    while n>0:
-        
+    print("A")
+
+
+# Actual Nim game
+
+# Find the cumulative XOR
+# If the XOR comes out 0 then the second player wins
+# Otherwise the first one wins
